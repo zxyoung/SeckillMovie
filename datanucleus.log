@@ -6637,6 +6637,7 @@ org.datanucleus.exceptions.NucleusUserException: Found Meta-Data for class com.z
 21:18:29,278 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.SeckillDetail" is already enhanced.
 21:18:29,281 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.User" is already enhanced.
 21:18:29,281 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=267 ms, enhance=79 ms, total=346 ms. Consult the log for full details
+<<<<<<< HEAD
 21:03:08,148 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer : Using ClassEnhancer "ASM" for API "JDO"
 21:03:08,148 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer : Using ClassEnhancer "ASM" for API "JDO"
 21:03:10,156 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.0.0.m4) : Enhancement of classes
@@ -6657,3 +6658,5 @@ org.datanucleus.exceptions.NucleusUserException: Found Meta-Data for class com.z
 21:03:11,053 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.User" is already enhanced.
 21:03:11,056 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=754 ms, enhance=89 ms, total=843 ms. Consult the log for full details
 21:03:11,056 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=779 ms, enhance=89 ms, total=868 ms. Consult the log for full details
+=======
+>>>>>>> 5d2d78009f0c9f3b505282e0d893314e690602cf
