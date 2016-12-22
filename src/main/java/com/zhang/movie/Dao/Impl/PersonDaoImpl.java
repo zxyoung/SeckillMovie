@@ -22,22 +22,18 @@ public class PersonDaoImpl implements PersonDao{
 	
 	
 	public int insert(Person person) {
-		// TODO Auto-generated method stub
 		return (Integer) jdoUtil.insert(person);
 	}
 
 	public boolean update(Person person) {
-		// TODO Auto-generated method stub
 		return jdoUtil.update(person);
 	}
 
 	public Person selectById(int id) {
-		// TODO Auto-generated method stub
 		return jdoUtil.selectByPK(Person.class, id);
 	}
 
 	public Person selectByName(String name) {
-		// TODO Auto-generated method stub
 		String sql = "p_name=="+name;
 		return (Person) jdoUtil.selectByQuery(Person.class, sql);
 	}

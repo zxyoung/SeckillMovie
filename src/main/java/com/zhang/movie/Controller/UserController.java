@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.zhang.movie.Service.UserService;
 
 @Controller
-@RequestMapping("/person.do")
+@RequestMapping("/user.do")
 public class UserController {
 	
 	@Autowired
