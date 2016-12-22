@@ -6830,3 +6830,33 @@ org.datanucleus.exceptions.NucleusUserException: Found Meta-Data for class com.z
 14:38:05,056 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.SeckillDetail" is already enhanced.
 14:38:05,059 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.User" is already enhanced.
 14:38:05,059 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=342 ms, enhance=92 ms, total=434 ms. Consult the log for full details
+14:42:13,741 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer : Using ClassEnhancer "ASM" for API "JDO"
+14:42:14,140 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.0.0.m4) : Enhancement of classes
+14:42:14,177 (main) INFO  [DataNucleus.MetaData] - Not found any metadata mapping files for resource name META-INF/orm.xml in CLASSPATH
+14:42:14,326 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.Movie" has been specified with JDO annotations so using those.
+14:42:14,462 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.SeckillDetail" has been specified with JDO annotations so using those.
+14:42:14,466 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.User" has been specified with JDO annotations so using those.
+14:42:14,535 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.Movie" is already enhanced.
+14:42:14,540 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.SeckillDetail" is already enhanced.
+14:42:14,541 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.User" is already enhanced.
+14:42:14,542 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=336 ms, enhance=60 ms, total=396 ms. Consult the log for full details
+14:42:15,553 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer : Using ClassEnhancer "ASM" for API "JDO"
+14:42:16,176 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.0.0.m4) : Enhancement of classes
+14:42:16,243 (main) INFO  [DataNucleus.MetaData] - Not found any metadata mapping files for resource name META-INF/orm.xml in CLASSPATH
+14:42:16,498 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.Movie" has been specified with JDO annotations so using those.
+14:42:16,587 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.SeckillDetail" has been specified with JDO annotations so using those.
+14:42:16,595 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.User" has been specified with JDO annotations so using those.
+14:42:16,755 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.Movie" is already enhanced.
+14:42:16,760 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.SeckillDetail" is already enhanced.
+14:42:16,764 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.User" is already enhanced.
+14:42:16,765 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=436 ms, enhance=142 ms, total=578 ms. Consult the log for full details
+14:42:16,990 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer : Using ClassEnhancer "ASM" for API "JDO"
+14:42:17,533 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.0.0.m4) : Enhancement of classes
+14:42:17,582 (main) INFO  [DataNucleus.MetaData] - Not found any metadata mapping files for resource name META-INF/orm.xml in CLASSPATH
+14:42:17,713 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.Movie" has been specified with JDO annotations so using those.
+14:42:17,801 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.SeckillDetail" has been specified with JDO annotations so using those.
+14:42:17,808 (main) INFO  [DataNucleus.MetaData] - Class "com.zhang.movie.Model.User" has been specified with JDO annotations so using those.
+14:42:17,923 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.Movie" is already enhanced.
+14:42:17,927 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.SeckillDetail" is already enhanced.
+14:42:17,930 (main) INFO  [DataNucleus.Enhancer] - Class "com.zhang.movie.Model.User" is already enhanced.
+14:42:17,931 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=293 ms, enhance=96 ms, total=389 ms. Consult the log for full details
