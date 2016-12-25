@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
@@ -34,8 +33,8 @@ public class SeckillServiceImpl implements SeckillService {
 	@Autowired
 	private Logger log;
 
-	public List<Movie> getAllMovie() {
-		return movieDao.getAllList();
+	public List<Movie> getAllMovieList() {
+		return movieDao.getAllMovieList();
 	}
 
 	public MovieDto getMovieDetailsById(int id) {

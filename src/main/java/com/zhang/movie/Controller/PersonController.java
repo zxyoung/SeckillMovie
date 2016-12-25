@@ -1,11 +1,12 @@
 package com.zhang.movie.Controller;
 
-import javax.annotation.Resource;
+import javax.jws.WebParam.Mode;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.zhang.movie.Model.Person;
 import com.zhang.movie.Service.PersonService;
@@ -31,15 +32,6 @@ public class PersonController {
 	public String update(Person person){
 		personService.equals(person);
 		return "success";
-	}
-	
-	public PersonService getPersonService() {
-		return personService;
-	}
-
-	@Resource
-	public void setPersonService(PersonService personService) {
-		this.personService = personService;
 	}
 	
 }	

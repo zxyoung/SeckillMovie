@@ -7,12 +7,13 @@ import com.zhang.movie.dto.MovieDto;
 import com.zhang.movie.dto.SeckillDto;
 
 public interface SeckillService {
+	
 	/**
 	 * 获得所有抢票订单
 	 * 
 	 * @return
 	 */
-	List<Movie> getAllMovie();
+	List<Movie> getAllMovieList();
 
 	/**
 	 * 获得电影票信息

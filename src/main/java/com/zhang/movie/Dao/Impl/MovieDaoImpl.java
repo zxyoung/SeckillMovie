@@ -21,7 +21,7 @@ public class MovieDaoImpl implements MovieDao {
 		return (Integer) jdoUtil.insert(movie);
 	}
 
-	public List<Movie> getAllList() {
+	public List<Movie> getAllMovieList() {
 		@SuppressWarnings("unchecked")
 		List<Movie> list = (List<Movie>) jdoUtil.selectByPK(Movie.class, "");
 		return list;

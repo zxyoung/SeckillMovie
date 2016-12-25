@@ -17,7 +17,7 @@ public interface MovieDao {
 	 * 获得所有电影
 	 * @return
 	 */
-	List<Movie> getAllList();
+	List<Movie> getAllMovieList();
 	
 	/**
 	 * 根据id获得电影

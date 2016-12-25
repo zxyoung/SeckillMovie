@@ -18,12 +18,14 @@
 	<context:component-scan base-package="com.zhang.movie.*" />
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/" />
+		<property name="prefix" value="/WEB-INF/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
 	<bean id="myPmf" class="org.springframework.orm.jdo.LocalPersistenceManagerFactoryBean">
-		<property name="configLocation" value="classpath:kodo.properties" />	
+		<property name="configLocation" value="classpath:jdbc.properties" />	
 	</bean>
 
-
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	
 </beans>
