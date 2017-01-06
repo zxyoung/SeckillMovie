@@ -2,12 +2,9 @@ package com.zhang.movie.Controller;
 
 import java.util.List;
 
-import javax.jws.WebParam.Mode;
-import javax.jws.soap.SOAPBinding.Use;
 import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
-import org.eclipse.jdt.internal.compiler.ast.ThisReference;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -51,7 +48,7 @@ public class SeckillController {
 	 * @param movie_id
 	 * @return
 	 */
-	@RequestMapping(value = "/{movie_id}/detail", method = RequestMethod.GET)
+	@RequestMapping(name = "/{movie_id}/detail", method = RequestMethod.GET)
 	public String getMovieDetail(Model model, @PathVariable("movie_id") Integer movie_id) {
 		if (movie_id == null) {
 			return "redirect:/seckill/list";
@@ -67,7 +64,7 @@ public class SeckillController {
 			model.addAttribute("err", e.getMessage());
 			e.printStackTrace();
 		}
-		return "movie_detail";
+		return "detail";
 	}
 
 	/**
